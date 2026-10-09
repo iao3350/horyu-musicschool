@@ -1,0 +1,17 @@
+# macOS が自動で作るファイル
+.DS_Store
+._*
+.AppleDouble
+.Spotlight-V100
+.Trashes
+
+# Windows が自動で作るファイル
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# エディタ
+.vscode/
+.idea/
+*.swp

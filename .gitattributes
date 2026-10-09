@@ -1,0 +1,19 @@
+# Windows と Mac で改行コードがズレないように、リポジトリ内は LF に統一する
+* text=auto eol=lf
+
+# テキストファイル
+*.html text eol=lf
+*.css  text eol=lf
+*.js   text eol=lf
+*.md   text eol=lf
+*.json text eol=lf
+
+# 画像などのバイナリ（改行変換しない）
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.ico  binary
+*.svg  text eol=lf
+*.pdf  binary
